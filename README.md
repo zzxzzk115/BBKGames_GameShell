@@ -3,6 +3,8 @@ GameShell适配的步步高经典游戏
 
 原项目地址: https://github.com/cyanzhong/bbk.emu
 
+感谢 孤獨愛你 提供的图标资源，更多资源，加QQ群:1041399424
+
 ## 截图
 
 伏魔记:
