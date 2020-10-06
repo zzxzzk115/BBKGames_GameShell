@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/encoding-indexes.js"></script>
+    <script src="./js/encoding.js"></script>
+    <script src="./js/sprintf.js"></script>
+    <style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+		</style>
+  </head>
+  <body>
+    <canvas id="lcd" width="416" height="256" style="height: 100%; width: 100%;"></canvas>
+    <script src="./js/bridge.js"></script>
+    <script src="./js/lcd.js"></script>
+    <script src="./js/baye.js"></script>
+    <script src="./js/keyboard.js"></script>
+    <script src="./js/keymap.js"></script>
+    <script>
+      lcdInit();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+    "main": "index.html",
+    "name": "fumoji",
+    "window": {
+        "width": 320,
+        "height": 240,
+        "max_width": 320,
+        "max_height": 240,
+        "resizable": false,
+        "fullscreen": false,
+        "frame": false,
+        "transparent": true
+    }
+} 
