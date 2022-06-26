@@ -17,11 +17,11 @@ bash <(curl -s https://raw.fastgit.org/zzxzzk115/BBKGames_GameShell/main/install
 
 伏魔记:
 
-![伏魔记](./pics/fumoji.JPG)
+![伏魔记](./pics/fumoji.jpg)
 
 
 
 三国霸业:
 
-![三国霸业](./pics/sanguobaye.JPG)
+![三国霸业](./pics/sanguobaye.jpg)
 
