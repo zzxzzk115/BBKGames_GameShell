@@ -15,5 +15,5 @@ bash install.sh
 # 删除临时内容
 sudo rm -rf ~/tmp/BBK_Games*
 
-# 提示安装完成
-echo Done!
+# 提示安装完成，需要刷新菜单界面
+echo Done! Please refresh menu.
