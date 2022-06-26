@@ -4,7 +4,7 @@
 cd ~
 mkdir -p tmp
 cd tmp
-wget https://raw.fastgit.org/zzxzzk115/BBKGames_GameShell/releases/latest/download/BBK_Games.zip
+wget https://fastgit.org/zzxzzk115/BBKGames_GameShell/releases/latest/download/BBK_Games.zip
 unzip BBK_Games.zip
 
 # 安装
