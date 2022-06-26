@@ -1,0 +1,111 @@
+.container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    float: left;
+}
+.dummy {
+    margin-top: 60%;
+}
+.dummy30 {
+    margin-top: 30%;
+}
+.element {
+    position: absolute;
+    left: 5%;
+    top: 0;
+    right: 5%;
+    bottom: 0;
+}
+
+.element.lcd {
+    left: 0;
+    right: 0;
+}
+
+.fill, #lcd {
+    width: 100%;
+    height: 100%;
+    background-color: silver;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.btn {
+    width:33.3%;
+    height:100%;
+    border: 0px;
+    -webkit-appearance:none;
+    float: left;
+}
+
+.btn.nav {
+    background-color: #aaaaaa;
+}
+
+.btn.fn, .btn.menu {
+    background-color: #3d9970;
+}
+
+.btn.enter {
+    background-color: #0074d9;
+    width:56.6%;
+}
+
+.btn.s {
+    background-color: #3d9970;
+    width:10%;
+}
+
+.btn.exit {
+    background-color: #ff851b;
+}
+
+.btn.menu {
+    font-size: 30px;
+    color: white;
+    width: 100%;
+    height: 60px;
+}
+
+.btn.menu.detail {
+    font-size: 18px;
+    background-color: #aaaaaa;
+}
+
+.btn.touch {
+    height: 50px;
+    margin-top:2px;
+}
+
+.alert {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .2);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .25), 0 1px 2px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .25), 0 1px 2px rgba(0, 0, 0, .05);
+}
+
+.alert-success {
+  background-image: -webkit-linear-gradient(top, #dff0d8 0%, #c8e5bc 100%);
+  background-image:      -o-linear-gradient(top, #dff0d8 0%, #c8e5bc 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#dff0d8), to(#c8e5bc));
+  background-image:         linear-gradient(to bottom, #dff0d8 0%, #c8e5bc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdff0d8', endColorstr='#ffc8e5bc', GradientType=0);
+  background-repeat: repeat-x;
+  border-color: #b2dba1;
+}
+
+canvas {
+    image-rendering: optimizeSpeed;             /* Older versions of FF          */
+    image-rendering: -moz-crisp-edges;          /* FF 6.0+                       */
+    image-rendering: -webkit-optimize-contrast; /* Safari                        */
+    image-rendering: -o-crisp-edges;            /* OS X & Windows Opera (12.02+) */
+    image-rendering: pixelated;                 /* Awesome future-browsers       */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE                            */
+}
+
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}

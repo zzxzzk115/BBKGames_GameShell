@@ -1,7 +1,7 @@
 //GameShell适配的按键
 $(document).keydown(function(event) {
     switch (event.keyCode) {
-　　//ESC(GameShell's Menu)->Exit Emulator
+    //ESC(GameShell's Menu)->Exit Emulator
     case 27:
         nw.App.closeAllWindows();
         break;
@@ -64,7 +64,7 @@ $(document).keydown(function(event) {
 
 $(document).keyup(function(event) {
     switch (event.keyCode) {
-　　//ESC ASCII 27
+    //ESC ASCII 27
     case 27:
         nw.App.closeAllWindows();
         break;

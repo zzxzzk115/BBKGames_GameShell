@@ -1,6 +1,6 @@
 {
     "main": "index.html",
-    "name": "sanguobaye",
+    "name": "mota",
     "window": {
         "width": 320,
         "height": 240,
@@ -9,6 +9,6 @@
         "resizable": false,
         "fullscreen": false,
         "frame": false,
-        "transparent": true
+        "transparent": false
     }
 } 
