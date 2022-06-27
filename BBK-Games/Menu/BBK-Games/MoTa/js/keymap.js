@@ -28,12 +28,12 @@ $(document).keydown(function(event) {
 
     //Space(GameShell's Select)->B
     case 32:
-        keyDown("B");
+        keyDown("F1");
         break;
 
     //ENTER(GameShell's Start)->A
     case 13:
-        keyDown("A");
+        keyDown("F2");
         break;
 
     //K(GameShell's A)->A
@@ -91,12 +91,12 @@ $(document).keyup(function(event) {
 
     //Space(GameShell's Select)->B
     case 32:
-        keyUp("B");
+        keyUp("F1");
         break;
 
     //ENTER(GameShell's Start)->A
     case 13:
-        keyUp("A");
+        keyUp("F2");
         break;
 
     //K(GameShell's A)->A
